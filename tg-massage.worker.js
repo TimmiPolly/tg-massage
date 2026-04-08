@@ -9,7 +9,7 @@ export default {
       const response = await fetch(apiUrl);
       const data = await response.json();
 
-      // 2. Берём нужные данные (лучшая покупка и продажа)
+      // 2. Берём нужные данные (лучшая покупка и продажа)3
       const bestBid = data[0].BestBid.Price;   // лучшая цена покупки
       const bestAsk = data[0].BestAsk.Price;   // лучшая цена продажи
       const timestamp = new Date(data[0].Timestamp).toLocaleString("ru-RU");
