@@ -5,10 +5,11 @@ compatibility_date = "2025-04-01"
 # Настройки для обычного Worker
 workers = true
 
-# Переменные окружения (секреты)
 [vars]
-# Здесь можно оставить пусто, мы будем использовать secrets
+BOT_TOKEN = "5239251024:AAFAbhAbypgAYVWv0Be1LXsXiwonel01D_4"
+CHAT_ID   = "-1001678476438"
 
 # Cron триггер
 [[triggers]]
 crons = ["0 * * * *"]   # каждый час
+
