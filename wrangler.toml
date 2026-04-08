@@ -6,8 +6,6 @@ compatibility_date = "2025-04-01"
 workers = true
 
 [vars]
-BOT_TOKEN = "5239251024:AAFAbhAbypgAYVWv0Be1LXsXiwonel01D_4"
-CHAT_ID   = "-1001678476438"
 
 # Cron триггер
 [[triggers]]
