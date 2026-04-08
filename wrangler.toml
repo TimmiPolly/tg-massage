@@ -1,5 +1,5 @@
 name = "tg-massage"
-main = "tg-massage.worker.js"
+main = "index.js"
 compatibility_date = "2025-04-01"
 
 # Настройки для обычного Worker
